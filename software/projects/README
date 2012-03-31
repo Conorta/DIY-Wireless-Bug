@@ -1,0 +1,12 @@
+//Description des Projets
+18b20		DS18B20 Digital Thermometer with ethernet library
+app_norfm_skel	Just a test code blink led and serial sends
+crypto		Crypto. Is it broken ?
+dht11		Humidity & Temp Sensor. Not begin ?
+hh10d		humidity sensor. Not begin ?
+ihm		Html server to monitor a bugOne network
+jkx_test_hh10d	hh10d by jkx
+lm35		Temp sensor
+pir		Passive Infrared sensor
+sleep		Sleep mode test
+sniffer		Send every received packet on serial monitor
