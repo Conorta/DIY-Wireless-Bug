@@ -5,7 +5,7 @@ import rfm12
 import bugOne
 
 import sys
-device = "/dev/ttyUSB0"
+device = "/dev/ttyACM0"
 if len(sys.argv) == 2:
 	device = sys.argv[1]
 
