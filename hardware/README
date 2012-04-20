@@ -1,0 +1,12 @@
+DIY Wireless Bug
+================
+
+Hardware
+
+To open hardware files, you need gEDA, a set of software applications : gschem and pcb programm.
+http://www.geda-project.org/
+
+gschem-components/ is a directory with some components schematics.
+
+
+

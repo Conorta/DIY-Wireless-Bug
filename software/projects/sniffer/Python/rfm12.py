@@ -6,7 +6,7 @@ import serial
 # Simple class to handle messages from RFM12 sniffer
 class SnifferSerial:
 
-	def __init__(self, device="/dev/ttyUSB0", baudrate=38400):
+	def __init__(self, device="/dev/ttyACM0", baudrate=38400):
 		self.port = serial.Serial(device, baudrate, timeout=1)
 
 	def close(self):
