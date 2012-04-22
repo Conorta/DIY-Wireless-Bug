@@ -10,5 +10,5 @@ if len(sys.argv) != 2:
 	exit(1)
 
 sniffer = rfm12.SnifferSerial()
-// Node_id, srcDeviceId, destDeviceId, value, sniffer
+# Node_id, srcDeviceId, destDeviceId, value, sniffer
 bugOne.setValue(0x1, 0, 1, int(sys.argv[1]), sniffer)

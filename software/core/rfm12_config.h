@@ -48,7 +48,7 @@
 #include "board.h"
 
 //frequency to use
-#define FREQ 868000000UL
+#define FREQ 868250000UL
 #define RFM12_BASEBAND RFM12_BAND_868
 
 //use this for datarates >= 2700 Baud
@@ -93,7 +93,7 @@
 /**** UART DEBUGGING
  * en- or disable debugging via uart.
  */
-#define RFM12_UART_DEBUG 0
+#define RFM12_UART_DEBUG 2
 
 /*
 This is a bitmask that defines how "rude" this library behaves
@@ -112,5 +112,5 @@ This is a bitmask that defines how "rude" this library behaves
 /* Disable interrupt vector and run purely inline. This may be useful for
  * configurations where a hardware interrupt is not available.
  */
-#define RFM12_NOIRQ 0
-#define RFM12_NOCOLLISIONDETECTION 0
+#define RFM12_NOIRQ 1
+#define RFM12_NOCOLLISIONDETECTION 1

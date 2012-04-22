@@ -31,13 +31,13 @@
 	1 1 1 1 16.0
 */
 #define RFM12_CMD_CFG 0x8000
-#	define RFM12_CFG_EL 0x80
-#	define RFM12_CFG_EF 0x40
-#	define RFM12_BAND_315 0x00
-#	define RFM12_BAND_433 0x10
-#	define RFM12_BAND_868 0x20
-#	define RFM12_BAND_915 0x30
-#	define RFM12_XTAL_12PF 0x07
+#define RFM12_CFG_EL 0x80
+#define RFM12_CFG_EF 0x40
+#define RFM12_BAND_315 0x00
+#define RFM12_BAND_433 0x10
+#define RFM12_BAND_868 0x20
+#define RFM12_BAND_915 0x30
+#define RFM12_XTAL_12PF 0x07
 
 /*
 	2. Power Management Command

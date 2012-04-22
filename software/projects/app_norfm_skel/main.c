@@ -10,7 +10,6 @@ This is a really minimal skel : no wireless, just LEDs en UART.
 #include "bugOne.h"
 
 #include <avr/io.h>
-#include <avr/interrupt.h>
 #include <util/delay.h>
 #include <string.h>
 
@@ -31,7 +30,6 @@ int main ( void )
   set_output(LED2);
 	
   uart_init();
-  sei();
 
   uart_putstr_P(PSTR("AVR init complete\r\n"));
 
